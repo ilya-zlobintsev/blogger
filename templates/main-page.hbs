@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+	<h1>Blog</h1>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body id="main">
+	{{#each entries}}
+	<div>
+		<a href={{ this.path }}>{{ this.title }}<a/>
+	</div>
+	{{/each}}
+</body>
+<footer>
+	<p><a href="https://github.com/ilyazzz/">My Github</a></p>
+</footer>

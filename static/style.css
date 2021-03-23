@@ -1,0 +1,19 @@
+body {
+	background: #151515;
+	color: white;
+}
+
+#main {
+	text-align: center;
+}
+
+footer {
+	bottom: 0px;
+	width: 100%;
+	position: fixed;
+}
+
+a {
+	color: lightblue;
+}
+
